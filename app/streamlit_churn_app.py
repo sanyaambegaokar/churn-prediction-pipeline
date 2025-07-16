@@ -7,7 +7,8 @@ from sklearn.linear_model import LogisticRegression
 model = joblib.load('app/churn_model.pkl')
 
 # Load your customer feature dataset
-df = pd.read_csv('~/Desktop/customer_features.csv')
+#df = pd.read_csv('~/Desktop/customer_features.csv')
+df = pd.read_csv('app/customer_features.csv')
 
 # Page config
 st.set_page_config(page_title="Churn Risk Checker", layout="centered")
