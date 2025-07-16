@@ -1,0 +1,166 @@
+[0m21:20:56.477919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042ac650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1044d6ab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b09f10>]}
+
+
+============================== 21:20:56.480727 | 854b2a2a-3ff8-4bcb-b01d-33dd1b797314 ==============================
+[0m21:20:56.480727 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:20:56.481058 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sanyaa/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init analytics_dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:20:56.486824 [info ] [MainThread]: Creating dbt configuration folder at /Users/sanyaa/.dbt
+[0m21:20:56.487603 [debug] [MainThread]: Starter project path: /Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:20:56.490908 [info ] [MainThread]: 
+Your new dbt project "analytics_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:20:56.491128 [info ] [MainThread]: Setting up your profile.
+[0m21:23:19.420850 [info ] [MainThread]: Profile analytics_dbt written to /Users/sanyaa/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:23:19.437106 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 143.00266, "process_in_blocks": "0", "process_kernel_time": 0.153282, "process_mem_max_rss": "113999872", "process_out_blocks": "0", "process_user_time": 0.948788}
+[0m21:23:19.438058 [debug] [MainThread]: Command `dbt init` succeeded at 21:23:19.437888 after 143.00 seconds
+[0m21:23:19.438663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bbe090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d6ffe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029e5a60>]}
+[0m21:23:19.439270 [debug] [MainThread]: Flushing usage events
+[0m21:23:20.324322 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:37:34.695429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10686bf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f3d8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f3d520>]}
+
+
+============================== 21:37:34.698628 | 4b2f00fd-269e-4e4a-b539-f1dbf89bda90 ==============================
+[0m21:37:34.698628 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:37:34.698961 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sanyaa/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:37:34.708502 [info ] [MainThread]: dbt version: 1.10.4
+[0m21:37:34.708721 [info ] [MainThread]: python version: 3.12.4
+[0m21:37:34.708875 [info ] [MainThread]: python path: /Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/venv/bin/python3
+[0m21:37:34.709011 [info ] [MainThread]: os info: macOS-15.4.1-arm64-arm-64bit
+[0m21:37:34.978995 [info ] [MainThread]: Using profiles dir at /Users/sanyaa/.dbt
+[0m21:37:34.979433 [info ] [MainThread]: Using profiles.yml file at /Users/sanyaa/.dbt/profiles.yml
+[0m21:37:34.979707 [info ] [MainThread]: Using dbt_project.yml file at /Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/dbt_project.yml
+[0m21:37:34.980174 [info ] [MainThread]: adapter type: postgres
+[0m21:37:34.980351 [info ] [MainThread]: adapter version: 1.9.0
+[0m21:37:34.980521 [info ] [MainThread]: Configuration:
+[0m21:37:34.980678 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:37:34.980825 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:37:34.980974 [info ] [MainThread]: Required dependencies:
+[0m21:37:34.981163 [debug] [MainThread]: Executing "git --help"
+[0m21:37:35.002958 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:37:35.003613 [debug] [MainThread]: STDERR: "b''"
+[0m21:37:35.003834 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:37:35.004053 [info ] [MainThread]: Connection:
+[0m21:37:35.004246 [info ] [MainThread]:   host: localhost
+[0m21:37:35.004409 [info ] [MainThread]:   port: 5432
+[0m21:37:35.004557 [info ] [MainThread]:   user: sanya
+[0m21:37:35.004697 [info ] [MainThread]:   database: sanya_dbt
+[0m21:37:35.004838 [info ] [MainThread]:   schema: public
+[0m21:37:35.004982 [info ] [MainThread]:   connect_timeout: 10
+[0m21:37:35.005129 [info ] [MainThread]:   role: None
+[0m21:37:35.005266 [info ] [MainThread]:   search_path: None
+[0m21:37:35.005408 [info ] [MainThread]:   keepalives_idle: 0
+[0m21:37:35.005542 [info ] [MainThread]:   sslmode: None
+[0m21:37:35.005684 [info ] [MainThread]:   sslcert: None
+[0m21:37:35.005829 [info ] [MainThread]:   sslkey: None
+[0m21:37:35.005969 [info ] [MainThread]:   sslrootcert: None
+[0m21:37:35.006107 [info ] [MainThread]:   application_name: dbt
+[0m21:37:35.006247 [info ] [MainThread]:   retries: 1
+[0m21:37:35.006581 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:37:35.070165 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m21:37:35.096845 [debug] [MainThread]: Using postgres connection "debug"
+[0m21:37:35.097086 [debug] [MainThread]: On debug: select 1 as id
+[0m21:37:35.097224 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:37:35.111814 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "sanya" does not exist
+
+[0m21:37:35.113948 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m21:37:35.114109 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m21:37:35.114265 [debug] [MainThread]: On debug: No close available on handle
+[0m21:37:35.114426 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:37:35.114622 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:37:35.114755 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/dbt_project.yml> not found
+
+[0m21:37:35.114887 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "sanya" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:37:35.117155 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.45724672, "process_in_blocks": "0", "process_kernel_time": 0.175392, "process_mem_max_rss": "120864768", "process_out_blocks": "0", "process_user_time": 0.821073}
+[0m21:37:35.117403 [debug] [MainThread]: Command `dbt debug` failed at 21:37:35.117356 after 0.46 seconds
+[0m21:37:35.117565 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:37:35.117738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d332c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10686bf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c58fb0>]}
+[0m21:37:35.117938 [debug] [MainThread]: Flushing usage events
+[0m21:37:36.138089 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:39:04.620807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060c90a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aa5970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aa56a0>]}
+
+
+============================== 21:39:04.623486 | 6051d044-d3e8-4bfc-8b4c-3ac23a828e5b ==============================
+[0m21:39:04.623486 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:39:04.623827 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sanyaa/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:39:04.629533 [info ] [MainThread]: dbt version: 1.10.4
+[0m21:39:04.629728 [info ] [MainThread]: python version: 3.12.4
+[0m21:39:04.629869 [info ] [MainThread]: python path: /Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/venv/bin/python3
+[0m21:39:04.630000 [info ] [MainThread]: os info: macOS-15.4.1-arm64-arm-64bit
+[0m21:39:04.656579 [info ] [MainThread]: Using profiles dir at /Users/sanyaa/.dbt
+[0m21:39:04.656829 [info ] [MainThread]: Using profiles.yml file at /Users/sanyaa/.dbt/profiles.yml
+[0m21:39:04.656971 [info ] [MainThread]: Using dbt_project.yml file at /Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/dbt_project.yml
+[0m21:39:04.657192 [info ] [MainThread]: adapter type: postgres
+[0m21:39:04.657323 [info ] [MainThread]: adapter version: 1.9.0
+[0m21:39:04.657453 [info ] [MainThread]: Configuration:
+[0m21:39:04.657570 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:39:04.657683 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:39:04.657794 [info ] [MainThread]: Required dependencies:
+[0m21:39:04.657939 [debug] [MainThread]: Executing "git --help"
+[0m21:39:04.671063 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:39:04.671609 [debug] [MainThread]: STDERR: "b''"
+[0m21:39:04.671785 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:39:04.671950 [info ] [MainThread]: Connection:
+[0m21:39:04.672105 [info ] [MainThread]:   host: localhost
+[0m21:39:04.672227 [info ] [MainThread]:   port: 5432
+[0m21:39:04.672347 [info ] [MainThread]:   user: sanyaa
+[0m21:39:04.672461 [info ] [MainThread]:   database: sanya_dbt
+[0m21:39:04.672572 [info ] [MainThread]:   schema: public
+[0m21:39:04.672685 [info ] [MainThread]:   connect_timeout: 10
+[0m21:39:04.672802 [info ] [MainThread]:   role: None
+[0m21:39:04.672913 [info ] [MainThread]:   search_path: None
+[0m21:39:04.673022 [info ] [MainThread]:   keepalives_idle: 0
+[0m21:39:04.673132 [info ] [MainThread]:   sslmode: None
+[0m21:39:04.673239 [info ] [MainThread]:   sslcert: None
+[0m21:39:04.673349 [info ] [MainThread]:   sslkey: None
+[0m21:39:04.673455 [info ] [MainThread]:   sslrootcert: None
+[0m21:39:04.673566 [info ] [MainThread]:   application_name: dbt
+[0m21:39:04.673675 [info ] [MainThread]:   retries: 1
+[0m21:39:04.673952 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:39:04.722417 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m21:39:04.744338 [debug] [MainThread]: Using postgres connection "debug"
+[0m21:39:04.744585 [debug] [MainThread]: On debug: select 1 as id
+[0m21:39:04.744726 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:39:04.758082 [debug] [MainThread]: SQL status: SELECT 1 in 0.013 seconds
+[0m21:39:04.758670 [debug] [MainThread]: On debug: Close
+[0m21:39:04.758851 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:39:04.759144 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:39:04.759369 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/sanyaa/Desktop/analytics-engineering-demo/dbt_project/dbt_project.yml> not found
+
+[0m21:39:04.760990 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.173268, "process_in_blocks": "0", "process_kernel_time": 0.146506, "process_mem_max_rss": "121962496", "process_out_blocks": "0", "process_user_time": 0.75659}
+[0m21:39:04.761255 [debug] [MainThread]: Command `dbt debug` failed at 21:39:04.761200 after 0.17 seconds
+[0m21:39:04.761427 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:39:04.761606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060c90a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10772e840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10786e330>]}
+[0m21:39:04.761810 [debug] [MainThread]: Flushing usage events
+[0m21:39:05.826223 [debug] [MainThread]: An error was encountered while trying to flush usage events
