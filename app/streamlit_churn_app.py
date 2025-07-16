@@ -4,7 +4,7 @@ import joblib
 from sklearn.linear_model import LogisticRegression
 
 # Load the trained model (you'll save it in the next step)
-model = joblib.load('churn_model.pkl')
+model = joblib.load('app/churn_model.pkl')
 
 # Load your customer feature dataset
 df = pd.read_csv('~/Desktop/customer_features.csv')
