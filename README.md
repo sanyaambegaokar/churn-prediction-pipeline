@@ -51,11 +51,12 @@ Run it locally:
 - Using feature engineering + labeling for ML-ready data
 - Deploying interactive ML apps with Streamlit
 
-📌 Future Improvements
-- Add second model (Random Forest or XGBoost)
-- Include feature importance dashboard
-- Deploy Streamlit app publicly
-- Add dbt tests + docs
+## 🌐 Streamlit App (Live)
+
+🟢 Try it live → [Click here to open the app](https://YOUR-STREAMLIT-APP-URL)
+
+> Predict customer churn using the trained model. Select a customer ID and view churn probability and key metrics.
+
 
 🙋‍♀️ Author
 Sanya Ambegaokar
